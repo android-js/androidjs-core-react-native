@@ -1,0 +1,14 @@
+# ninja log v5
+0	795	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	64f9164c5b959436
+795	1151	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	b76e709f54ea3b3d
+1	853	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	64f9164c5b959436
+853	1195	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	b76e709f54ea3b3d
+0	810	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	64f9164c5b959436
+810	1154	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	b76e709f54ea3b3d
+1	363	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	b76e709f54ea3b3d
+1	281	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	b76e709f54ea3b3d
+15	640	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	b76e709f54ea3b3d
+1	355	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	b76e709f54ea3b3d
+0	363	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	b76e709f54ea3b3d
+1	364	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	b76e709f54ea3b3d
+0	436	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	b76e709f54ea3b3d

@@ -1,0 +1,28 @@
+{
+  "name": "androidjs_core_react_native",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "cd android && ./gradlew clean && cd .. && node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "androidjs": "^1.0.10",
+    "http": "0.0.0",
+    "path": "^0.12.7",
+    "react": "16.8.6",
+    "react-native": "0.59.7",
+    "socket.io-client": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.4",
+    "@babel/runtime": "7.4.4",
+    "babel-jest": "24.8.0",
+    "jest": "24.8.0",
+    "metro-react-native-babel-preset": "0.54.0",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

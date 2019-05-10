@@ -1,0 +1,16 @@
+Executable : /Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/Users/chhekur/Desktop/androidjs_core_react_native/android/app
+-B/Users/chhekur/Desktop/androidjs_core_react_native/android/app/.externalNativeBuild/cmake/debug/x86_64
+-DANDROID_ABI=x86_64
+-DANDROID_PLATFORM=android-16
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/chhekur/Desktop/androidjs_core_react_native/android/app/build/intermediates/cmake/debug/obj/x86_64
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/Users/chhekur/Library/Android/ndk
+-DCMAKE_CXX_FLAGS=
+-DCMAKE_TOOLCHAIN_FILE=/Users/chhekur/Library/Android/ndk/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+-DANDROID_STL=c++_shared
+jvmArgs : 
+

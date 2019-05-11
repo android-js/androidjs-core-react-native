@@ -3,19 +3,19 @@ The host system is: Darwin - 15.0.0 - x86_64
 Determining if the C compiler works passed with the following output:
 Change Dir: /Users/chhekur/Desktop/androidjs_core_react_native/android/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_55176"
-[1/2] Building C object CMakeFiles/cmTC_55176.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_55176
+Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_1a071"
+[1/2] Building C object CMakeFiles/cmTC_1a071.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_1a071
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /Users/chhekur/Desktop/androidjs_core_react_native/android/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_9648e"
-[1/2] Building C object CMakeFiles/cmTC_9648e.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_9648e
+Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_3106f"
+[1/2] Building C object CMakeFiles/cmTC_3106f.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_3106f
 Android (5058415 based on r339409) clang version 8.0.2 (https://android.googlesource.com/toolchain/clang 40173bab62ec746213857d083c0e8b0abb568790) (https://android.googlesource.com/toolchain/llvm 7a6618d69e7e8111e1d49dc9e7813767c5ca756a) (based on LLVM 8.0.2svn)
-Target: i686-none-linux-android16
+Target: i686-none-linux-android19
 Thread model: posix
 InstalledDir: /Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/bin
 Found candidate GCC installation: /Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x
@@ -23,18 +23,18 @@ Found candidate GCC installation: /Users/chhekur/Library/Android/ndk/toolchains/
 Selected GCC installation: /Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x
 Candidate multilib: .;@m32
 Selected multilib: .;@m32
- "/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_9648e /Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/16/crtbegin_dynamic.o -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/i386 -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/16 -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections CMakeFiles/cmTC_9648e.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/16/crtend_android.o
+ "/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_3106f /Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtbegin_dynamic.o -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/i386 -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19 -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections CMakeFiles/cmTC_3106f.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtend_android.o
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(i686-linux-android-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/chhekur/Desktop/androidjs_core_react_native/android/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_9648e"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_9648e.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_9648e]
+  ignore line: [Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_3106f"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_3106f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_3106f]
   ignore line: [Android (5058415 based on r339409) clang version 8.0.2 (https://android.googlesource.com/toolchain/clang 40173bab62ec746213857d083c0e8b0abb568790) (https://android.googlesource.com/toolchain/llvm 7a6618d69e7e8111e1d49dc9e7813767c5ca756a) (based on LLVM 8.0.2svn)]
-  ignore line: [Target: i686-none-linux-android16]
+  ignore line: [Target: i686-none-linux-android19]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/bin]
   ignore line: [Found candidate GCC installation: /Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x]
@@ -44,7 +44,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m32]
   ignore line: [Selected multilib: .]
   ignore line: [@m32]
-  link line: [ "/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_9648e /Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/16/crtbegin_dynamic.o -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/i386 -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/16 -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections CMakeFiles/cmTC_9648e.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/16/crtend_android.o]
+  link line: [ "/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_3106f /Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtbegin_dynamic.o -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/i386 -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19 -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections CMakeFiles/cmTC_3106f.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtend_android.o]
     arg [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld] ==> ignore
     arg [--sysroot=/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
@@ -55,11 +55,11 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_9648e] ==> ignore
-    arg [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/16/crtbegin_dynamic.o] ==> ignore
+    arg [cmTC_3106f] ==> ignore
+    arg [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtbegin_dynamic.o] ==> ignore
     arg [-L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/i386] ==> dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/i386]
     arg [-L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x]
-    arg [-L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/16] ==> dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/16]
+    arg [-L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19] ==> dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19]
     arg [-L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android] ==> dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android]
     arg [-L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib]
     arg [-L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib] ==> dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
@@ -75,23 +75,23 @@ Parsed C implicit link information from above output:
     arg [-zrelro] ==> ignore
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_9648e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_3106f.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
     arg [-lc] ==> lib [c]
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
-    arg [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/16/crtend_android.o] ==> ignore
+    arg [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtend_android.o] ==> ignore
   remove lib [gcc]
   remove lib [gcc]
   collapse library dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/i386] ==> [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/i386]
   collapse library dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x]
-  collapse library dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/16] ==> [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/16]
+  collapse library dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19] ==> [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19]
   collapse library dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android] ==> [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android]
   collapse library dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/i686-linux-android/lib]
   collapse library dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib] ==> [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
   implicit libs: [dl;c;dl]
-  implicit dirs: [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/i386;/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x;/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/16;/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android;/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/i686-linux-android/lib;/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+  implicit dirs: [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/i386;/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x;/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19;/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android;/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/i686-linux-android/lib;/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
   implicit fwks: []
 
 
@@ -100,9 +100,9 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /Users/chhekur/Desktop/androidjs_core_react_native/android/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_91b84"
-[1/2] Building C object CMakeFiles/cmTC_91b84.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_91b84
+Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_6bf5a"
+[1/2] Building C object CMakeFiles/cmTC_6bf5a.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_6bf5a
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -114,9 +114,9 @@ Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninj
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /Users/chhekur/Desktop/androidjs_core_react_native/android/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_0bd93"
-[1/2] Building C object CMakeFiles/cmTC_0bd93.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_0bd93
+Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_b8011"
+[1/2] Building C object CMakeFiles/cmTC_b8011.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_b8011
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -128,9 +128,9 @@ Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninj
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /Users/chhekur/Desktop/androidjs_core_react_native/android/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_f9e89"
-[1/2] Building C object CMakeFiles/cmTC_f9e89.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_f9e89
+Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_69a85"
+[1/2] Building C object CMakeFiles/cmTC_69a85.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_69a85
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -140,19 +140,19 @@ Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninj
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /Users/chhekur/Desktop/androidjs_core_react_native/android/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_ee2b6"
-[1/2] Building CXX object CMakeFiles/cmTC_ee2b6.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_ee2b6
+Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_fc329"
+[1/2] Building CXX object CMakeFiles/cmTC_fc329.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_fc329
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /Users/chhekur/Desktop/androidjs_core_react_native/android/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_c3d60"
-[1/2] Building CXX object CMakeFiles/cmTC_c3d60.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_c3d60
+Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_b57fc"
+[1/2] Building CXX object CMakeFiles/cmTC_b57fc.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_b57fc
 Android (5058415 based on r339409) clang version 8.0.2 (https://android.googlesource.com/toolchain/clang 40173bab62ec746213857d083c0e8b0abb568790) (https://android.googlesource.com/toolchain/llvm 7a6618d69e7e8111e1d49dc9e7813767c5ca756a) (based on LLVM 8.0.2svn)
-Target: i686-none-linux-android16
+Target: i686-none-linux-android19
 Thread model: posix
 InstalledDir: /Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/bin
 Found candidate GCC installation: /Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x
@@ -160,18 +160,18 @@ Found candidate GCC installation: /Users/chhekur/Library/Android/ndk/toolchains/
 Selected GCC installation: /Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x
 Candidate multilib: .;@m32
 Selected multilib: .;@m32
- "/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_c3d60 /Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/16/crtbegin_dynamic.o -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/i386 -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/16 -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections CMakeFiles/cmTC_c3d60.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/16/crtend_android.o
+ "/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_b57fc /Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtbegin_dynamic.o -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/i386 -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19 -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections CMakeFiles/cmTC_b57fc.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtend_android.o
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(i686-linux-android-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/chhekur/Desktop/androidjs_core_react_native/android/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_c3d60"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_c3d60.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_c3d60]
+  ignore line: [Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_b57fc"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_b57fc.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_b57fc]
   ignore line: [Android (5058415 based on r339409) clang version 8.0.2 (https://android.googlesource.com/toolchain/clang 40173bab62ec746213857d083c0e8b0abb568790) (https://android.googlesource.com/toolchain/llvm 7a6618d69e7e8111e1d49dc9e7813767c5ca756a) (based on LLVM 8.0.2svn)]
-  ignore line: [Target: i686-none-linux-android16]
+  ignore line: [Target: i686-none-linux-android19]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/bin]
   ignore line: [Found candidate GCC installation: /Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x]
@@ -181,7 +181,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m32]
   ignore line: [Selected multilib: .]
   ignore line: [@m32]
-  link line: [ "/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_c3d60 /Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/16/crtbegin_dynamic.o -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/i386 -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/16 -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections CMakeFiles/cmTC_c3d60.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/16/crtend_android.o]
+  link line: [ "/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_b57fc /Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtbegin_dynamic.o -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/i386 -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19 -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections CMakeFiles/cmTC_b57fc.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtend_android.o]
     arg [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld] ==> ignore
     arg [--sysroot=/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
@@ -192,11 +192,11 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_c3d60] ==> ignore
-    arg [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/16/crtbegin_dynamic.o] ==> ignore
+    arg [cmTC_b57fc] ==> ignore
+    arg [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtbegin_dynamic.o] ==> ignore
     arg [-L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/i386] ==> dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/i386]
     arg [-L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x]
-    arg [-L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/16] ==> dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/16]
+    arg [-L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19] ==> dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19]
     arg [-L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android] ==> dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android]
     arg [-L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib]
     arg [-L/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib] ==> dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
@@ -212,7 +212,7 @@ Parsed CXX implicit link information from above output:
     arg [-zrelro] ==> ignore
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_c3d60.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_b57fc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lc++] ==> lib [c++]
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]
@@ -222,19 +222,19 @@ Parsed CXX implicit link information from above output:
     arg [-lgcc] ==> lib [gcc]
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
-    arg [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/16/crtend_android.o] ==> ignore
+    arg [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19/crtend_android.o] ==> ignore
   remove lib [gcc]
   remove lib [gcc]
   remove lib [gcc]
   remove lib [gcc]
   collapse library dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/i386] ==> [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/i386]
   collapse library dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x]
-  collapse library dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/16] ==> [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/16]
+  collapse library dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19] ==> [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19]
   collapse library dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android] ==> [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android]
   collapse library dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib] ==> [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/i686-linux-android/lib]
   collapse library dir [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib] ==> [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
   implicit libs: [c++;m;dl;c;dl]
-  implicit dirs: [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/i386;/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x;/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/16;/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android;/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/i686-linux-android/lib;/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+  implicit dirs: [/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/i386;/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x;/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/19;/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android;/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/i686-linux-android/lib;/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
   implicit fwks: []
 
 
@@ -243,9 +243,9 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /Users/chhekur/Desktop/androidjs_core_react_native/android/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_08541"
-[1/2] Building CXX object CMakeFiles/cmTC_08541.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_08541
+Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_e593e"
+[1/2] Building CXX object CMakeFiles/cmTC_e593e.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_e593e
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -310,9 +310,9 @@ Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninj
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /Users/chhekur/Desktop/androidjs_core_react_native/android/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_5dafe"
-[1/2] Building CXX object CMakeFiles/cmTC_5dafe.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_5dafe
+Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_60c18"
+[1/2] Building CXX object CMakeFiles/cmTC_60c18.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_60c18
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -377,9 +377,9 @@ Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninj
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /Users/chhekur/Desktop/androidjs_core_react_native/android/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_f5a03"
-[1/2] Building CXX object CMakeFiles/cmTC_f5a03.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_f5a03
+Run Build Command:"/Users/chhekur/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_d35a6"
+[1/2] Building CXX object CMakeFiles/cmTC_d35a6.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_d35a6
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

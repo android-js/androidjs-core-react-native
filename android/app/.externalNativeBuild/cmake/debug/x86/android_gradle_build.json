@@ -29,7 +29,7 @@
 			[
 				
 				{
-					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../libnode/include/node  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"flags" : "  --target=i686-none-linux-android19 --gcc-toolchain=/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I../../../../libnode/include/node  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC    -c ",
 					"src" : "/Users/chhekur/Desktop/androidjs_core_react_native/android/app/src/main/cpp/native-lib.cpp",
 					"workingDirectory" : "/Users/chhekur/Desktop/androidjs_core_react_native/android/app/.externalNativeBuild/cmake/debug/x86"
 				}

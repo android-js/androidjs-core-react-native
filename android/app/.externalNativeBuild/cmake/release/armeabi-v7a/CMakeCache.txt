@@ -21,7 +21,7 @@ ANDROID_ABI:UNINITIALIZED=armeabi-v7a
 ANDROID_NDK:UNINITIALIZED=/Users/chhekur/Library/Android/ndk
 
 //No help, variable specified on the command line.
-ANDROID_PLATFORM:UNINITIALIZED=android-16
+ANDROID_PLATFORM:UNINITIALIZED=android-19
 
 //No help, variable specified on the command line.
 ANDROID_STL:UNINITIALIZED=c++_shared
@@ -180,8 +180,8 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 //Path to a program.
 CMAKE_STRIP:FILEPATH=/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-strip
 
-//No help, variable specified on the command line.
-CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=/Users/chhekur/Library/Android/ndk/build/cmake/android.toolchain.cmake
+//The CMake toolchain file
+CMAKE_TOOLCHAIN_FILE:FILEPATH=/Users/chhekur/Library/Android/ndk/build/cmake/android.toolchain.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -196,10 +196,10 @@ Project_BINARY_DIR:STATIC=/Users/chhekur/Desktop/androidjs_core_react_native/and
 Project_SOURCE_DIR:STATIC=/Users/chhekur/Desktop/androidjs_core_react_native/android/app
 
 //Path to a library.
-log-lib:FILEPATH=/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/16/liblog.so
+log-lib:FILEPATH=/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/19/liblog.so
 
 //Dependencies for the target
-native-lib_LIB_DEPENDS:STATIC=general;libnode;general;/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/16/liblog.so;
+native-lib_LIB_DEPENDS:STATIC=general;libnode;general;/Users/chhekur/Library/Android/ndk/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/19/liblog.so;
 
 
 ########################

@@ -3,7 +3,7 @@ arguments :
 -H/Users/chhekur/Desktop/androidjs_core_react_native/android/app
 -B/Users/chhekur/Desktop/androidjs_core_react_native/android/app/.externalNativeBuild/cmake/debug/armeabi-v7a
 -DANDROID_ABI=armeabi-v7a
--DANDROID_PLATFORM=android-16
+-DANDROID_PLATFORM=android-19
 -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/chhekur/Desktop/androidjs_core_react_native/android/app/build/intermediates/cmake/debug/obj/armeabi-v7a
 -DCMAKE_BUILD_TYPE=Debug
 -DANDROID_NDK=/Users/chhekur/Library/Android/ndk

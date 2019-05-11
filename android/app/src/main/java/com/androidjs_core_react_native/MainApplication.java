@@ -1,7 +1,9 @@
 package com.androidjs_core_react_native;
 
+import android.app.Activity;
 import android.app.Application;
 
+import com.android.js.react_native.AndroidJSPackage;
 import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
@@ -22,7 +24,8 @@ public class MainApplication extends Application implements ReactApplication {
     @Override
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
-          new MainReactPackage()
+        new MainReactPackage(),
+        new AndroidJSPackage(R.mipmap.ic_launcher)
       );
     }
 

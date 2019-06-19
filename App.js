@@ -8,7 +8,9 @@
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
-import {front} from 'androidjs';
+import {front, app} from 'androidjs';
+// import {NativeModules} from 'react-native';
+
 
 
 const instructions = Platform.select({
@@ -36,7 +38,9 @@ export default class App extends Component<Props> {
 
   componentWillMount(){
     front.on('hello', function(){
-      this.setState({msg:"Hello From Node JS"});
+      this.setState({msg:"Hello From Android JS"});
+      app.toast.show("Hello World", 100);
+      console.log(app);
     }.bind(this));
   }
   

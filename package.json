@@ -1,6 +1,6 @@
 {
   "name": "androidjs_core_react_native",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "cd android && ./gradlew clean && cd .. && node node_modules/react-native/local-cli/cli.js start",

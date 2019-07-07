@@ -1,13 +1,10 @@
 package com.androidjs_core_react_native;
 
 import android.os.Bundle;
-import android.support.v4.app.ActivityCompat;
 
 import com.android.js.other.PermissionRequest;
 import com.android.js.react_native.AndroidJSActivity;
-import com.facebook.react.ReactActivity;
 
-import java.io.File;
 
 public class MainActivity extends AndroidJSActivity {
 

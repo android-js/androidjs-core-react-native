@@ -8,8 +8,8 @@
   },
   "project-type":"react-native",
   "dependencies": {
-    "androidjs": "^1.0.10",
-    "http": "0.0.0",
+    "androidjs": "^2.0.4",
+    "http": "0.0.1-security",
     "path": "^0.12.7",
     "react": "16.8.6",
     "react-native": "0.59.7",
